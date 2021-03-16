@@ -153,24 +153,21 @@ end lab06;
 Уравнения модели эпидемии  для моего варианта имеют следующий вид:
 
 Для случая, когда $$I(0) \leq I^{*}$$ 
-	$$ 
-	\frac{dS}{dt} = 0
 
-	\frac{dI}{dt} =- \beta I
+$$ \frac{dS}{dt} = 0$$
 
-	\frac{dR}{dt} =  - \beta I   
-                $$
+$$\frac{dI}{dt} =- \beta I$$
+
+$$\frac{dR}{dt} =  - \beta I$$
 
 
 Для случая, когда $$ I(0) > I^{*} $$ 
 
-	$$ 
-	\frac{dS}{dt} = - \alpha S
+$$ \frac{dS}{dt} = - \alpha S$$
 
-	\frac{dI}{dt} = - \alpha S - \beta I
+$$\frac{dI}{dt} = - \alpha S - \beta I$$
 
-	\frac{dR}{dt} =  - \beta I  
-        	$$
+$$\frac{dR}{dt} =  - \beta I $$
 	
 Начальные условия: N = 4289, I(0) = 82, R(0) = 15, S(0) = 4192.
 
